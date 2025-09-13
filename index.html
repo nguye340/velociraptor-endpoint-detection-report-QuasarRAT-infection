@@ -1,20 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Velociraptor Threat Hunting Report</title>
   <style>
-    html, body {
-      margin: 0;
-      height: 100%;
-    }
-    embed {
-      width: 100%;
-      height: 100%;
-    }
+    html, body { height:100%; margin:0; }
+    .pdf { position:fixed; inset:0; width:100%; height:100%; border:none; }
   </style>
 </head>
 <body>
-  <embed src="Velociraptor Threat Hunting Report - HanNguyen.pdf" type="application/pdf">
+  <iframe
+    class="pdf"
+    src="Velociraptor Threat Hunting Report - HanNguyen.pdf#page=1&zoom=page-width&view=FitH&toolbar=0&navpanes=0"
+  ></iframe>
 </body>
 </html>
